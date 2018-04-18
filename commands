@@ -1,1 +1,2 @@
-
+copy Https url from git website and clone it in ur local desktop
+cmd 1 : git clone <url>
