@@ -1,2 +1,28 @@
 copy Https url from git website and clone it in ur local desktop
 cmd 1 : git clone <url>
+ex: $ git clone https://github.com/sravankaripe/Gits-Commands.git
+    $ cd Gits-Commands/
+    $ vi commands
+    $ git status
+
+to move file from current working directory to staging area
+cmd 2 : git add <filename>
+ex: $ git add commands
+    $ git status
+    
+to move file from staging area to Repository(local repository)
+cmd 3 : git commit -m "add a message"
+ex: $ git commit -m "cmd 1 is added with some desc"
+    $ git status
+    
+to move file from local repository to remote
+cmd 4 : git push
+ex: $ git push [-a]
+    $ git status
+
+
+
+
+
+
+
