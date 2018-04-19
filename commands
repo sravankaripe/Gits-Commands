@@ -16,10 +16,35 @@ ex: $ git commit -m "cmd 1 is added with some desc"
     $ git status
     
 to move file from local repository to remote
-cmd 4 : git push
+cmd 4 : git pull
+Note : before pushing always do pull
+cmd 5 : git push
 ex: $ git push [-a]
     $ git status
 
+addtional commands need to know
+-------------------------------
+$git diff
+to see the changes made
+
+$git branch <branchName>
+Ex: git branch Mybranch
+to create branch 
+$git checkout Mybranch
+
+$git branched -merged 
+
+$git merge Mybranch
+
+to remove files from staging area 
+$git reset
+
+we can see log to see recent commits
+$git log
+
+to view informatiom about the remote repository
+$git remote -v
+$git branch -a 
 
 
 
