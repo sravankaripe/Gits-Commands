@@ -1,0 +1,16 @@
+Connecting windows to EC2 using git-bash
+-----------------------------------------
+$ ssh -i "splunkkeyvalue.pem" ubuntu@ec2-18-218-45-97.us-east-2.compute.amazonaws.com
+
+transfering file from windows to EC2(linux)
+-------------------------------------------
+scp -i "splunkkeyvalue.pem" splunk-add-on-for-unix-and-linux_523.tgz ubuntu@ec2-18-218-45-97.us-east-2.compute.amazonaws.com:/tmp
+
+scp -i "splunkkeyvalue.pem" splunk-7.0.2-03bbabbd5c0f-linux-2.6-x86_64.rpm ubuntu@ec2-18-218-45-97.us-east-2.compute.amazonaws.com:/tmp
+
+scp -i "splunkkeyvalue.pem" splunk-add-on-for-unix-and-linux_523.tgz ubuntu@ec2-18-188-31-51.us-east-2.compute.amazonaws.com:/tmp
+
+install in linux
+-----------------
+rpm -i splunk-7.0.2-03bbabbd5c0f-linux-2.6-x86_64.rpm
+tar -xvzf splunk-add-on-for-unix-and-linux_523.tgz

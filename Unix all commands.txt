@@ -1,0 +1,45 @@
+• cat---forcreating anddisplaying shortfiles 
+• chmod---changepermissions 
+• cd---changedirectory,‘cd’or‘cd~’goesbackto homedirectory.‘cd..’goesto parentdirectory. 
+• cp---forcopying files 
+• grep---searchfile 
+• head ---display firstpart offile 
+• ls ---see whatfiles youhave 
+• lpr ---standardprint command 
+• more---usetoread files 
+• mkdir ---create directory 
+• mv---formoving and renaming files 
+• pwd---find out whatdirectoryyou arein 
+• rm---removea file 
+• rmdir ---remove directory 
+• sort---sortfile 
+• tail ---display last partoffile 
+• wc---countcharacters,words,lines
+
+
+• uniq -eliminate orcount duplicate lines in a presorted file 
+• cmp – compare twofiles to seethe locationofthe firstdifference between two files 
+• comm - compare twofiles forcommon and distinct lines 
+• diff -find differences between two files 
+• tr - Translate characters 
+• grep - search onefile ormultiple files forlines that contain a pattern 
+• cut- extract columns of data 
+• paste - joinfiles horizontally 
+• join - perform a relational join on two files 
+• sed -search and replace parts ofa file based onregular expressions 
+• find -locate files on a Unix orLinux system
+
+•      look - display strings that begin with the given strings. 
+•      spell - prints a list of words that may be misspelled. 
+•      set - set shell variables (C shell only) 
+•      unset - Delete variables 
+•      setenv - Set environment variable (csh/tcsh) to value v 
+•      unsetenv - deletes the variable name from the environment.   
+•      export - makes variable visible in sub shells (in bash/ksh). 
+•      write - write to another logged-in user 
+•      mail - send and receive mail 
+•      alias - create new commands from existing commands 
+•      unalias - Remove alias  
+•      tty - print the file name of the terminal connected to standard input  
+•      ps - show process status 
+•      tar - create or extract archives, combine multiple files/dirs into single archive 
